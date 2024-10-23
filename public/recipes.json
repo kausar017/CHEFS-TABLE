@@ -13,8 +13,8 @@
           "2 cloves garlic",
           "400 g mushroom"
         ],
-        "preparing_time": "30 min",
-        "calories": "320 calories"
+        "preparing_time": 30,
+        "calories": 320
       },
       {
         "recipe_id": 102,
@@ -30,8 +30,8 @@
           "1 tbsp mustard",
           "1 tbsp ketchup"
         ],
-        "preparing_time": "25 min",
-        "calories": "450 calories"
+        "preparing_time": 25,
+        "calories": 450
       },
       {
         "recipe_id": 103,
@@ -47,8 +47,8 @@
           "2 tbsp olive oil",
           "1 tsp ginger"
         ],
-        "preparing_time": "20 min",
-        "calories": "150 calories"
+        "preparing_time": 20,
+        "calories": 150
       },
       {
         "recipe_id": 104,
@@ -64,8 +64,8 @@
           "1 tbsp olive oil",
           "50 g parmesan cheese"
         ],
-        "preparing_time": "40 min",
-        "calories": "520 calories"
+        "preparing_time": 40,
+        "calories": 520
       },
       {
         "recipe_id": 105,
@@ -80,8 +80,8 @@
           "30 ml olive oil",
           "1 tsp oregano"
         ],
-        "preparing_time": "10 min",
-        "calories": "200 calories"
+        "preparing_time": 10,
+        "calories": 200
       },
       {
         "recipe_id": 106,
@@ -96,8 +96,8 @@
           "3 eggs",
           "50 g cocoa powder"
         ],
-        "preparing_time": "35 min",
-        "calories": "400 calories"
+        "preparing_time": 35,
+        "calories": 400
       }
     ]
 

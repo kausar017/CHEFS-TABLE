@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 
-const Recipe = () => {
+
+const Recipe = ({ handalResipi }) => {
 
     const [resipe, setresipe] = useState([]);
 
@@ -13,15 +14,15 @@ const Recipe = () => {
         // .catch(error => console.log(error))
 
     }, []);
-    console.log(resipe);
+    // console.log(resipe);
 
 
     return (
         <div className="md:w-2/3">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
                 {
                     resipe.map((resipe, index) =>
-                        <div key={index} className=" rounded-xl bg-base-100 p-3 shadow-xl">
+                        <div key={index} className=" rounded-xl bg-base-100 p-3 border-2">
                             <figure>
                                 <img className="rounded-xl md:h-80 w-full object-cover"
                                     src={resipe.image}
@@ -37,8 +38,19 @@ const Recipe = () => {
                                         resipe.ingredients.map((items, index) => <li key={index}>{items}</li>)
                                     }
                                 </ul>
+                                <div className="flex items-center gap-4">
+                                    <div className="flex items-center gap-2">
+                                        <i className="fa-regular fa-clock"></i>
+                                        <p>{resipe.preparing_time}</p>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <i className="fa-solid fa-fire-flame-curved"></i>
+                                        <p>{resipe.calories}</p>
+                                    </div>
+
+                                </div>
                                 <div className="card-actions">
-                                    <button className="btn bg-[#0BE58A] px-[24px] rounded-full text-lg">Want to Cook</button>
+                                    <button onClick={() => handalResipi(resipe)} className="btn bg-[#0BE58A] px-[24px] rounded-full text-lg text-gray-800">Want to Cook</button>
                                 </div>
                             </div>
                         </div>
