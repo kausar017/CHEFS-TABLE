@@ -1,9 +1,9 @@
-{
-    "recipes": [
+
+   [
       {
         "recipe_id": 101,
         "recipe_name": "Grilled Chicken with Basil",
-        "image": "https://img.freepik.com/free-photo/grilled-chicken-breasts-with-vegetables_23-2148189865.jpg?t=st=1729624051~exp=1729627651~hmac=ceb574af8af306cec27b3597aa45d9c3d65a4ecc631661f95a7ad3dfce099d76&w=996",
+        "image": "https://i.postimg.cc/prRX3YWQ/grilled-chicken-breasts-with-vegetables-23-2148189865.jpg",
         "short_description": "Juicy grilled chicken marinated with soy sauce and fresh basil leaves.",
         "ingredients": [
           "550 g chicken",
@@ -19,7 +19,7 @@
       {
         "recipe_id": 102,
         "recipe_name": "Classic Beef Burger",
-        "image": "https://img.freepik.com/free-photo/juicy-cheeseburger-wooden-cutting-board_9975-24326.jpg?t=st=1729624245~exp=1729627845~hmac=cbba5a56a3d0fb7c4dbb908fbaf8ae6c69362ed0713fe1bf34231c346af3b725&w=1380",
+        "image": "https://i.postimg.cc/NfNfPHWT/juicy-cheeseburger-wooden-cutting-board-9975-24326.jpg",
         "short_description": "A hearty, classic beef burger with cheese and lettuce.",
         "ingredients": [
           "200 g ground beef",
@@ -36,7 +36,7 @@
       {
         "recipe_id": 103,
         "recipe_name": "Vegetable Stir-fry",
-        "image": "https://img.freepik.com/free-photo/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots_1150-27209.jpg?t=st=1729624302~exp=1729627902~hmac=d8b90db8f691da74e9a1f5c6d30445182fa8d3733db489f7b82a24b6e8be69f2&w=1380",
+        "image": "https://i.postimg.cc/ryj8K4yb/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots-1150-27209.jpg",
         "short_description": "A quick and healthy stir-fry with mixed vegetables.",
         "ingredients": [
           "200 g broccoli",
@@ -53,7 +53,7 @@
       {
         "recipe_id": 104,
         "recipe_name": "Spaghetti Bolognese",
-        "image": "https://img.freepik.com/free-photo/spaghetti-with-bolognese-sauce-wooden-tablexa_123827-22962.jpg?t=st=1729624385~exp=1729627985~hmac=f99b311ade1e1c0c5295625856bef1836f6eb92dab6ebc9013121ae1b8d4080a&w=1380",
+        "image": "https://i.postimg.cc/xTFnPSz3/spaghetti-with-bolognese-sauce-wooden-tablexa-123827-22962.jpg",
         "short_description": "A rich and savory spaghetti Bolognese made with ground beef and tomatoes.",
         "ingredients": [
           "200 g spaghetti",
@@ -70,7 +70,7 @@
       {
         "recipe_id": 105,
         "recipe_name": "Greek Salad",
-        "image": "https://img.freepik.com/free-photo/front-view-greek-salad-lettuce-with-black-olives_141793-4617.jpg?t=st=1729624439~exp=1729628039~hmac=543606183d0c5f070874bb61b9b90a846295cd75b6b60c6c88be4b17079dd8d9&w=1380",
+        "image": "https://i.postimg.cc/wBYKWxTL/front-view-greek-salad-lettuce-with-black-olives-141793-4617.jpg",
         "short_description": "A refreshing Greek salad with cucumber, olives, and feta cheese.",
         "ingredients": [
           "150 g cucumber",
@@ -86,7 +86,7 @@
       {
         "recipe_id": 106,
         "recipe_name": "Chocolate Brownies",
-        "image": "https://img.freepik.com/free-photo/chocolate-brownies-white-plate_1150-20887.jpg?t=st=1729624489~exp=1729628089~hmac=d5a7177d2d7780b92c2087c13364ff4e0b5e2027a19ecd352fd4543c6a1ad9c1&w=1380",
+        "image": "https://i.postimg.cc/VNqx2ydT/chocolate-brownies-white-plate-1150-20887.jpg",
         "short_description": "Rich and fudgy chocolate brownies made with cocoa and dark chocolate.",
         "ingredients": [
           "100 g dark chocolate",
@@ -100,5 +100,5 @@
         "calories": "400 calories"
       }
     ]
-  }
+
   
